@@ -1,0 +1,12 @@
+services:
+
+  student-app:
+
+    build: .
+
+    container_name: student-app
+
+    ports:
+      - "8082:8081"
+
+    restart: always
